@@ -1,0 +1,6 @@
+# À mettre dans le service app (Paperless)
+# Railway (plugin Redis) : copier tel quel depuis le service redis → REDIS_URL
+PAPERLESS_REDIS=<REDIS_URL>
+
+# Redis externe (exemple)
+PAPERLESS_REDIS=redis://:<MOT_DE_PASSE>@<IP_DU_VPS>:6379/0

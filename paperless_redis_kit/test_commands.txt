@@ -1,0 +1,3 @@
+# Test rapide si tu as redis-cli
+redis-cli -u redis://:<PASS>@<HOST>:6379 ping
+# Réponse attendue : PONG
