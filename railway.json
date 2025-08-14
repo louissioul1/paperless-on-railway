@@ -1,0 +1,7 @@
+{
+  "name": "paperless-ngx",
+  "plugins": [
+    { "name": "postgresql" },
+    { "name": "redis" }
+  ]
+}
